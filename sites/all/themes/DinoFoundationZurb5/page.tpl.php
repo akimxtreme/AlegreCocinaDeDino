@@ -15,6 +15,7 @@
         if ($user->uid) {
             
         ?>
+        <div class="row">
         <nav id="usuario" class="top-bar" data-topbar>
   <ul class="title-area">
     
@@ -34,15 +35,16 @@
     </ul>
   </section>
 </nav> 
+            </div>
         
         
         <?php
         }
         if (!$user->uid) {        
         ?>
+        <div class="row">
         <nav id="usuario" class="top-bar" data-topbar>
-  <ul class="title-area">
-    
+  <ul class="title-area">   
      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
   </ul>
@@ -59,7 +61,8 @@
       </li>
     </ul>
   </section>
-</nav>                
+</nav>   
+        </div>
         <?php
         }
         ?>
