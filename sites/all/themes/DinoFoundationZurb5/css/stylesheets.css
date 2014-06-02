@@ -316,9 +316,64 @@ margin: 0; padding: 0;
     font-family: LiberationSans-Regular;
 }
 
+/* Estilos de Historia */
+#historia {
+    font-family: LiberationSans-Regular;
+}
+#historia h1 { font-family: Lobster; color: #E00126; }
+/* Estilos Formulario de Registro, Formulario de Contacto, Formulario de Login y Fomulario Recuperar Contraseña */
+#user-register-form, #user-login, #user-pass, #contact-site-form {
+    border-radius: 5px;
+    opacity: 0.95;
+    font-family: LiberationSans-Regular;
+    padding: 5%;
+    margin: 5% 0%;
+background: #4dd63b; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRkZDYzYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMjg5MjUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, #4dd63b 0%, #328925 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4dd63b), color-stop(100%,#328925)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #4dd63b 0%,#328925 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #4dd63b 0%,#328925 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #4dd63b 0%,#328925 100%); /* IE10+ */
+background: linear-gradient(to bottom, #4dd63b 0%,#328925 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dd63b', endColorstr='#328925',GradientType=0 ); /* IE6-8 */
+box-shadow: 0 0 5px #CCC;
+color: #000;
+}
+#user-register-form label, #user-login label, #user-pass label, #contact-site-form label {
+    font-size: 1.2em;
+    color: #000;
+    font-family: Lobster;
+}
+#user-register-form div.form-item input.form-text, #user-login div.form-item input.form-text, #user-pass div.form-item input.form-text, #contact-site-form div.form-item input.form-text{
+    
+     font-size: 1em;
+    background: #FFF;
+    
+}
+#user-register-form input,  #user-login input, #user-pass input, #contact-site-form input{
+    padding: 10px;
+background: #dd4259; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RkNDI1OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMDAxMjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, #dd4259 0%, #e00126 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dd4259), color-stop(100%,#e00126)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #dd4259 0%,#e00126 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #dd4259 0%,#e00126 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #dd4259 0%,#e00126 100%); /* IE10+ */
+background: linear-gradient(to bottom, #dd4259 0%,#e00126 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd4259', endColorstr='#e00126',GradientType=0 ); /* IE6-8 */
+font-size: 1em;
+border-radius: 5px;
+color: #000;
 
-
-
+}
+/* Estilos Login */
+ 
+/* Estilos Registro*/
+#form1 h2 { color: #E00126;}
+#form2 h2 { color: #328925;}
 
 /*
 ROJO #E00126
@@ -339,3 +394,65 @@ background: -ms-linear-gradient(top, #4dd63b 0%,#328925 100%); /* IE10+ */
 background: linear-gradient(to bottom, #4dd63b 0%,#328925 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dd63b', endColorstr='#328925',GradientType=0 ); /* IE6-8 */
 }
+
+.rojo {
+    background: #dd4259; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RkNDI1OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMDAxMjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, #dd4259 0%, #e00126 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dd4259), color-stop(100%,#e00126)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #dd4259 0%,#e00126 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #dd4259 0%,#e00126 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #dd4259 0%,#e00126 100%); /* IE10+ */
+background: linear-gradient(to bottom, #dd4259 0%,#e00126 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd4259', endColorstr='#e00126',GradientType=0 ); /* IE6-8 */
+}
+.rojoInv {
+    background: #e00126; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwMDEyNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkZDQyNTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #e00126 0%, #dd4259 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e00126), color-stop(100%,#dd4259)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e00126 0%,#dd4259 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e00126 0%,#dd4259 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e00126 0%,#dd4259 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #e00126 0%,#dd4259 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e00126', endColorstr='#dd4259',GradientType=0 ); /* IE6-8 */
+
+}
+
+
+/*Colores de Texto */
+.text_red {color: #E00126;}
+.text_green { color: #328925;}
+.tfamily1 {font-family: Lobster;}
+.tfamily2 {font-family: LiberationSans-Regular;}
+
+
+
+#first-time {
+    visibility: hidden;
+}
+
+.node-videos {
+   
+   }
+.node-videos h2 a{
+   font-family: Lobster;
+   text-decoration: underline;
+    color: #328925;
+    font-size: 0.7em;
+}
+
+.recetas h1 {
+    font-family: Lobster;
+    color: #328925;
+}
+
+.recetasCat h2 {font-family: Lobster;font-size: 1.5em; }
+.recetas img { width: 200px;height: 200px; }
+.recetasCat img { width: 100px; height: 100px;}
+.recetasCat .ruta {background-color: #328925; color: #FFF;}
+.recetas p, .recetasCat p {
+    font-family: LiberationSans-Regular;
+}   

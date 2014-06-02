@@ -10,9 +10,10 @@ stylesheets[all][] = css/foundation.css
 stylesheets[all][] = css/foundation-icons/foundation-icons.css
 
 ; Scripts de Foundation Zurb 5
-scripts[] = js/vendor/custom.modernizr.js
+scripts[] = js/vendor/modernizr.js
 scripts[] = js/vendor/jquery.js
 scripts[] = js/foundation.min.js
+scripts[] = js/foundation/foundation.clearing.js
 
 
 ; Regiones
