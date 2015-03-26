@@ -55,7 +55,7 @@
       <li class="has-dropdown">
         <a href="#"><i class="fi-torso"></i> Usuario</a>
         <ul class="dropdown">
-          <li><a href="user"><i class="fi-lock"></i> Iniciar Sesión</a></li>
+          <li><a href="user/login"><i class="fi-lock"></i> Iniciar Sesión</a></li>
           <li><a href="user/password"><i class="fi-info"></i> Solicitar Nueva Contraseña</a></li>
         </ul>
       </li>
